@@ -1,6 +1,6 @@
 <?php
 
-namespace Lersoft\LaravelThumbnail;
+namespace HundV\LaravelThumbnail;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +25,6 @@ class LaravelThumbnailServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind("thumbnail", \Lersoft\LaravelThumbnail\LaravelThumbnail::class);
+        $this->app->bind("thumbnail", \HundV\LaravelThumbnail\LaravelThumbnail::class);
     }
 }
